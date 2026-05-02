@@ -277,20 +277,20 @@ h2{font-size:clamp(1.5rem,3vw,2.3rem);margin-bottom:1rem}
 }
 
 .fyp-stat-card {
-  padding: 1.1rem 1rem;
+  padding: 1.2rem 1rem;
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  box-shadow: 0 8px 24px rgba(93, 70, 55, 0.08);
+  box-shadow: 0 6px 20px rgba(93, 70, 55, 0.07);
 }
 
 .fyp-stat-card h4 {
-  margin: 0 0 .35rem;
-  font-size: .95rem;
-  font-weight: 700;
-  color: var(--text-primary);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0 0 0.35rem;
 }
 
 .fyp-stat-card p {
@@ -374,7 +374,7 @@ h2{font-size:clamp(1.5rem,3vw,2.3rem);margin-bottom:1rem}
 .contact-email { margin: 0; text-align: center; width: 100%; display: flex; justify-content: center; }
 .email-pill { display: inline-flex; align-items: center; gap: .4rem; padding: .5rem 1.1rem; border-radius: 999px; background: rgba(232,117,74,.1); border: 1px solid rgba(232,117,74,.35); color: var(--accent); font-weight: 600; font-size: .95rem; text-decoration: none; transition: background .22s ease, border-color .22s ease, transform .22s ease; }
 .email-pill:hover { background: rgba(232,117,74,.18); border-color: rgba(232,117,74,.65); transform: translateY(-1px); }
-.contact-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; }
+.contact-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; width: 100%; }
 .contact-actions .btn-primary:hover, .contact-actions .cta:hover { box-shadow: 0 16px 36px rgba(232,117,74,.45); background: linear-gradient(135deg,#e8754a,#f0a060); }
 
 /* ── Footer ── */
