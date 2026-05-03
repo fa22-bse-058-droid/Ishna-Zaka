@@ -272,6 +272,7 @@ h2{font-size:clamp(1.5rem,3vw,2.3rem);margin-bottom:1rem}
   font-weight: 800;
   color: #1a1a1a;
   margin: 0 0 0.35rem;
+  text-align: center;
 }
 
 .fyp-stat-card p {
@@ -279,8 +280,8 @@ h2{font-size:clamp(1.5rem,3vw,2.3rem);margin-bottom:1rem}
   font-size: .85rem;
   color: var(--text-secondary);
   line-height: 1.5;
+  text-align: center;
 }
-
 .fyp-team { margin: 0; font-size: .9rem; font-weight: 600; color: var(--text-secondary); }
 .fyp-bottom { margin-top: 1.2rem; }
 .fyp-stack-tags { margin-bottom: 1rem; }
