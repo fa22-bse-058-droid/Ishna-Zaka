@@ -408,7 +408,7 @@ h2{font-size:clamp(1.5rem,3vw,2.3rem);margin-bottom:1rem}
   .fyp-stack-preview span, .fyp-stack-tags span, .project-tags span { font-size: .72rem; }
   .footer-nav-list { flex-direction: column; gap: .55rem; }
   .contact-card { padding: 1.5rem; gap: 1.2rem; }
-  .contact-email-label { font-size: .75rem; }
+  .contact-email-label { font-size: 1rem; font-weight: 800; }
   .email-pill { padding: .4rem .9rem; font-size: .9rem; }
   .contact-actions .btn { padding: .6rem 1rem; font-size: .9rem; }
   .fyp-stats-grid { grid-template-columns: 1fr; }
