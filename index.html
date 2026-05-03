@@ -159,20 +159,8 @@
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <circle cx="12" cy="12" r="2"></circle>
                   <ellipse cx="12" cy="12" rx="9" ry="3.8"></ellipse>
-                  <ellipse
-                    cx="12"
-                    cy="12"
-                    rx="9"
-                    ry="3.8"
-                    transform="rotate(60 12 12)"
-                  ></ellipse>
-                  <ellipse
-                    cx="12"
-                    cy="12"
-                    rx="9"
-                    ry="3.8"
-                    transform="rotate(120 12 12)"
-                  ></ellipse>
+                  <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(60 12 12)"></ellipse>
+                  <ellipse cx="12" cy="12" rx="9" ry="3.8" transform="rotate(120 12 12)"></ellipse>
                 </svg>
               </div>
               <p class="skill-name">React</p>
@@ -180,9 +168,7 @@
             <article class="skill-icon-card">
               <div class="skill-icon-box">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M8.3 6.1c1.6-1.5 5.2-1.5 6.8 0 .9.8 1.2 2.1.8 3.3-.4 1.1-1.5 2-2.8 2.3 1.1.9 1.6 2.2 1.3 3.5-.3 1.2-1.1 2.2-2.2 2.8-1.5.8-3.7.7-5.2-.2-1.4-.8-2.1-2.2-1.8-3.7.2-1.2 1-2.2 2.4-2.7-1.2-.4-2.2-1.3-2.6-2.5-.5-1.3-.1-2.7 1-3.7z"
-                  ></path>
+                  <path d="M8.3 6.1c1.6-1.5 5.2-1.5 6.8 0 .9.8 1.2 2.1.8 3.3-.4 1.1-1.5 2-2.8 2.3 1.1.9 1.6 2.2 1.3 3.5-.3 1.2-1.1 2.2-2.2 2.8-1.5.8-3.7.7-5.2-.2-1.4-.8-2.1-2.2-1.8-3.7.2-1.2 1-2.2 2.4-2.7-1.2-.4-2.2-1.3-2.6-2.5-.5-1.3-.1-2.7 1-3.7z"></path>
                   <circle cx="9" cy="9.2" r="0.8"></circle>
                   <circle cx="14.8" cy="14.9" r="0.8"></circle>
                 </svg>
@@ -301,6 +287,7 @@
             impact in mind.
           </p>
           <div class="project-grid">
+            <!-- KEEP 01 -->
             <article class="glass-card project-card">
               <p class="project-number">01</p>
               <h3>Multimodal Emotion Detection System</h3>
@@ -313,6 +300,7 @@
                 ><span>Deep Learning</span><span>CNN</span>
               </div>
             </article>
+            <!-- KEEP 02 -->
             <article class="glass-card project-card">
               <p class="project-number">02</p>
               <h3>Generative AI Image Creation App</h3>
@@ -325,54 +313,61 @@
                 ><span>Python</span>
               </div>
             </article>
+            <!-- NEW 03 -->
             <article class="glass-card project-card">
               <p class="project-number">03</p>
-              <h3>Real-Time Data Scraping &amp; Predictive Analytics Dashboard</h3>
+              <h3>Blood Donor Finder</h3>
               <p>
-                Scrapes live data and runs regression models to forecast trends,
-                displayed on an interactive analytics dashboard.
+                Patients or families register urgent blood needs, system matches
+                by blood type and city, sends email/SMS alerts to nearby
+                registered donors, donor confirms availability and contact
+                details are shared.
               </p>
               <div class="project-tags">
-                <span>Selenium</span><span>BeautifulSoup</span
-                ><span>scikit-learn</span><span>Django</span
-                ><span>Chart.js</span>
+                <span>Django</span><span>React</span><span>MySQL</span
+                ><span>Twilio</span><span>SMTP</span>
               </div>
             </article>
+            <!-- NEW 04 -->
             <article class="glass-card project-card">
               <p class="project-number">04</p>
-              <h3>Transformer-Based AI Chatbot</h3>
+              <h3>Second-Hand Book Marketplace</h3>
               <p>
-                Conversational chatbot powered by GPT-2 fine-tuning with a
-                modern chat UI and context-aware response generation.
+                University students list used textbooks for sale with price,
+                condition and photo. Other students browse by subject or course
+                code and contact sellers directly.
               </p>
               <div class="project-tags">
-                <span>GPT-2</span><span>Transformers</span
-                ><span>FastAPI</span><span>React</span>
+                <span>Django</span><span>React</span><span>MySQL</span
+                ><span>Image Upload</span>
               </div>
             </article>
+            <!-- NEW 05 -->
             <article class="glass-card project-card">
               <p class="project-number">05</p>
-              <h3>AI-Based Smart Home Energy Optimization</h3>
+              <h3>Water Quality Reporter</h3>
               <p>
-                ML system that analyzes household energy usage patterns and
-                recommends optimizations to reduce consumption.
+                Citizens report contaminated water areas by dropping a pin on a
+                map with description and photo. Local authority dashboard tracks
+                and updates resolution status publicly.
               </p>
               <div class="project-tags">
-                <span>Python</span><span>scikit-learn</span
-                ><span>FastAPI</span><span>React</span><span>ML</span>
+                <span>Django</span><span>React</span><span>MySQL</span
+                ><span>Google Maps API</span>
               </div>
             </article>
+            <!-- NEW 06 -->
             <article class="glass-card project-card">
               <p class="project-number">06</p>
-              <h3>Assistive Smart Stick for Visually Impaired</h3>
+              <h3>Price Comparison Tool</h3>
               <p>
-                IoT + AI embedded system that uses ultrasonic sensors and
-                computer vision to assist visually impaired individuals in
-                navigation.
+                User searches any product, system scrapes Daraz and OLX in real
+                time and displays results side by side with price, seller rating
+                and link.
               </p>
               <div class="project-tags">
-                <span>Python</span><span>OpenCV</span><span>IoT</span
-                ><span>Raspberry Pi</span><span>CNN</span>
+                <span>Python</span><span>FastAPI</span><span>BeautifulSoup</span
+                ><span>React</span>
               </div>
             </article>
           </div>
@@ -382,34 +377,10 @@
       <section id="fyp" class="section fyp">
         <div class="container content-layer">
           <p class="fyp-pill">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                d="M3 9.5L12 5L21 9.5L12 14L3 9.5Z"
-                stroke="#E8754A"
-                stroke-width="1.8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M7 11.5V15.5C7 15.5 9 18 12 18C15 18 17 15.5 17 15.5V11.5"
-                stroke="#E8754A"
-                stroke-width="1.8"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M21 9.5V14.5"
-                stroke="#E8754A"
-                stroke-width="1.8"
-                stroke-linecap="round"
-              />
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3 9.5L12 5L21 9.5L12 14L3 9.5Z" stroke="#E8754A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7 11.5V15.5C7 15.5 9 18 12 18C15 18 17 15.5 17 15.5V11.5" stroke="#E8754A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M21 9.5V14.5" stroke="#E8754A" stroke-width="1.8" stroke-linecap="round"/>
             </svg>
             <span>Final Year Project</span>
           </p>
@@ -430,22 +401,10 @@
                 <div class="fyp-contributions">
                   <h3>My Contributions</h3>
                   <ul>
-                    <li>
-                      Frontend UI/UX — Dark cosmic-themed React app with Framer
-                      Motion animations
-                    </li>
-                    <li>
-                      CV Analyzer — PDF/DOCX parsing, spaCy NER, ATS scoring
-                      0–100
-                    </li>
-                    <li>
-                      Job Scraping &amp; Auto-Apply — Selenium scraper for
-                      Rozee.pk, LinkedIn, Indeed + AI matching
-                    </li>
-                    <li>
-                      Course Recommendations — Skill gap detection + learning
-                      path generation
-                    </li>
+                    <li>Frontend UI/UX — Dark cosmic-themed React app with Framer Motion animations</li>
+                    <li>CV Analyzer — PDF/DOCX parsing, spaCy NER, ATS scoring 0–100</li>
+                    <li>Job Scraping &amp; Auto-Apply — Selenium scraper for Rozee.pk, LinkedIn, Indeed + AI matching</li>
+                    <li>Course Recommendations — Skill gap detection + learning path generation</li>
                   </ul>
                 </div>
                 <div class="fyp-stack-preview">
@@ -456,11 +415,11 @@
               </div>
               <div class="fyp-right">
                 <div class="fyp-stats-grid">
-  <div class="fyp-stat-card"><h4>CV Scoring</h4><p>0–100 ATS Score</p></div>
-  <div class="fyp-stat-card"><h4>Job Sources</h4><p>Rozee.pk, LinkedIn, Indeed</p></div>
-  <div class="fyp-stat-card"><h4>Auto-Apply</h4><p>AI Cover Letter + Selenium</p></div>
-  <div class="fyp-stat-card"><h4>Courses</h4><p>Coursera, Udemy, YouTube</p></div>
-</div>
+                  <div class="fyp-stat-card"><h4>CV Scoring</h4><p>0–100 ATS Score</p></div>
+                  <div class="fyp-stat-card"><h4>Job Sources</h4><p>Rozee.pk, LinkedIn, Indeed</p></div>
+                  <div class="fyp-stat-card"><h4>Auto-Apply</h4><p>AI Cover Letter + Selenium</p></div>
+                  <div class="fyp-stat-card"><h4>Courses</h4><p>Coursera, Udemy, YouTube</p></div>
+                </div>
                 <p class="fyp-team">
                   Team size: 3 Members | Role: Full-Stack + AI Engineer
                 </p>
@@ -474,13 +433,13 @@
                 ><span>Celery</span><span>spaCy</span><span>MiniLM</span
                 ><span>Selenium</span>
               </div>
-             <div class="fyp-bottom-actions">
-  <p class="in-progress-badge">Completed</p>
-  <a class="btn btn-outline fyp-link"
-     href="https://github.com/fa22-bse-058-droid/Final-Year-Project--AI-Career-Assistant"
-     target="_blank"
-     rel="noopener noreferrer">View Project →</a>
-</div>
+              <div class="fyp-bottom-actions">
+                <p class="in-progress-badge">Completed</p>
+                <a class="btn btn-outline fyp-link"
+                   href="https://github.com/fa22-bse-058-droid/Final-Year-Project--AI-Career-Assistant"
+                   target="_blank"
+                   rel="noopener noreferrer">View Project →</a>
+              </div>
             </div>
           </div>
         </div>
@@ -498,28 +457,12 @@
           <div class="glass-card contact-card">
             <p class="contact-email-label">Email</p>
             <p class="contact-email">
-              <a class="email-pill" href="mailto:ishnazaka65@gmail.com"
-                >ishnazaka65@gmail.com</a
-              >
+              <a class="email-pill" href="mailto:ishnazaka65@gmail.com">ishnazaka65@gmail.com</a>
             </p>
             <div class="contact-actions">
-              <a
-                href="https://github.com/fa22-bse-058-droid"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-outline"
-                >GitHub</a
-              >
-              <a
-                href="https://www.linkedin.com/in/ishna-zaka-521291254/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-outline"
-                >LinkedIn</a
-              >
-              <a href="mailto:ishnazaka65@gmail.com" class="btn btn-primary"
-                >Send me a message</a
-              >
+              <a href="https://github.com/fa22-bse-058-droid" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+              <a href="https://www.linkedin.com/in/ishna-zaka-521291254/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
+              <a href="mailto:ishnazaka65@gmail.com" class="btn btn-primary">Send me a message</a>
             </div>
           </div>
         </div>
@@ -531,23 +474,10 @@
       <div class="container footer-content">
         <p class="footer-name">Ishna Zaka</p>
         <div class="footer-meta">
-          <a
-            href="mailto:ishnazaka65@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >ishnazaka65@gmail.com</a
-          >
-          <a
-            href="https://www.linkedin.com/in/ishna-zaka-521291254/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="footer-linkedin"
-            aria-label="LinkedIn profile"
-          >
+          <a href="mailto:ishnazaka65@gmail.com" target="_blank" rel="noopener noreferrer">ishnazaka65@gmail.com</a>
+          <a href="https://www.linkedin.com/in/ishna-zaka-521291254/" target="_blank" rel="noopener noreferrer" class="footer-linkedin" aria-label="LinkedIn profile">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M6.9 8.7v9.2H3.8V8.7zm.2-2.8a1.8 1.8 0 1 1-3.6 0 1.8 1.8 0 0 1 3.6 0M20.4 12.6v5.3h-3.1V13c0-1.3-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.2-.1.2-.1.5-.1.8v5H10.6V8.7h3.1V10c.4-.6 1.2-1.5 3-1.5 2.1 0 3.7 1.4 3.7 4.1"
-              ></path>
+              <path d="M6.9 8.7v9.2H3.8V8.7zm.2-2.8a1.8 1.8 0 1 1-3.6 0 1.8 1.8 0 0 1 3.6 0M20.4 12.6v5.3h-3.1V13c0-1.3-.5-2.2-1.7-2.2-1 0-1.5.6-1.8 1.2-.1.2-.1.5-.1.8v5H10.6V8.7h3.1V10c.4-.6 1.2-1.5 3-1.5 2.1 0 3.7 1.4 3.7 4.1"></path>
             </svg>
           </a>
         </div>
